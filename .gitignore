@@ -7,3 +7,5 @@ build/
 **/lib/generated/**
 packages
 pubspec.lock
+benchmarks/out
+doc/
