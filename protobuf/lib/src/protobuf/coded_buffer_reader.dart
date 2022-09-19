@@ -10,7 +10,7 @@ class CodedBufferReader {
   // ignore: constant_identifier_names
   static const int DEFAULT_RECURSION_LIMIT = 64;
   // ignore: constant_identifier_names
-  static const int DEFAULT_SIZE_LIMIT = 64 << 20;
+  static const int DEFAULT_SIZE_LIMIT = 64 << 24;
 
   final Uint8List _buffer;
   int _bufferPos = 0;
